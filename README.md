@@ -1,4 +1,4 @@
-# Covid-19 | National
+# Covid-19 | Kimberly-Marcelin-Nathan | National Level Covid Dashboard - India + Districts
 
 This is a Covid-19 Dashboard that gives us Updates on all the States of India based on Confirmed, Recovered and Deceased Cases.
 Here Data's are visualized with the help of a bar chart📊, pie chart , line graph📈 and more✨!
