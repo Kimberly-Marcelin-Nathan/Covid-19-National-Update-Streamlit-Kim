@@ -10,7 +10,7 @@ df = get_data_1()
 
 date_ = get_date(df)
 
-st.markdown("<h1 style='text-align: center; letter-spacing:12px;font-size: 65px; color: #ffffff;'>COVID 19 NATIONAL UPDATES</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; letter-spacing:12px;font-size: 65px; color: #7F7F7F;'>COVID 19 NATIONAL UPDATES</h1>", unsafe_allow_html=True)
 
 
 st.text('')
@@ -36,7 +36,7 @@ with c1:
 
 with c2:
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #ffffff;'>- OVERALL -</h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #7F7F7F;'>- OVERALL -</h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.markdown(
@@ -82,7 +82,7 @@ with c11:
 
 with c22:
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #ffffff;'>- {date_.split(':')[1].strip().upper()} -</h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #7F7F7F;'>- {date_.split(':')[1].strip().upper()} -</h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.markdown(
