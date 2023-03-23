@@ -82,8 +82,7 @@ with c11:
 
 with c22:
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #ffffff
-        ;'>- {date_.split(':')[1].strip().upper()} -</h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #ffffff;'>- {date_.split(':')[1].strip().upper()} -</h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.markdown(
