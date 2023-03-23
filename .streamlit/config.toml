@@ -1,5 +1,5 @@
 [theme]
-base="transparent"
+base="#000000d1"
 primaryColor = "#F63366"
 backgroundColor = "transparent"
 secondaryBackgroundColor = "#752237"
