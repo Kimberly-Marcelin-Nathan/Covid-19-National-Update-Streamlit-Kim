@@ -10,7 +10,7 @@ df = get_data_1()
 
 date_ = get_date(df)
 
-st.markdown("<h1 style='text-align: center; letter-spacing:12px;font-size: 65px; color: #7F7F7F;'>COVID 19 NATIONAL UPDATES</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; letter-spacing:12px;font-size: 65px; color: #ffffff;'>COVID 19 NATIONAL UPDATES</h1>", unsafe_allow_html=True)
 
 
 st.text('')
@@ -28,7 +28,7 @@ with c1:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{tot[0]}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{tot[0]}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -36,11 +36,11 @@ with c1:
 
 with c2:
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #7F7F7F;'>- OVERALL -</h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #ffffff;'>- OVERALL -</h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{tot[2]}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{tot[2]}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -53,7 +53,7 @@ with c3:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{tot[1]}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{tot[1]}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -74,7 +74,7 @@ with c11:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(tt1)}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(tt1)}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -82,11 +82,12 @@ with c11:
 
 with c22:
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #7F7F7F;'>- {date_.split(':')[1].strip().upper()} -</h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:10px;font-size: 28px; color: #ffffff
+        ;'>- {date_.split(':')[1].strip().upper()} -</h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(tt2)}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(tt2)}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -99,7 +100,7 @@ with c33:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(tt3)}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(tt3)}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -194,7 +195,7 @@ with c7:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(int(states.loc[state_ch]['Confirmed']))}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(int(states.loc[state_ch]['Confirmed']))}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -205,7 +206,7 @@ with c8:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(int(states.loc[state_ch]['Recovered']))}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(int(states.loc[state_ch]['Recovered']))}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -217,7 +218,7 @@ with c9:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(int(states.loc[state_ch]['Deceased']))}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(int(states.loc[state_ch]['Deceased']))}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -253,7 +254,7 @@ with c71:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(int(states_recent.loc[state_ch]['Confirmed']))}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(int(states_recent.loc[state_ch]['Confirmed']))}</span><br><br><span>CONFIRMED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -264,7 +265,7 @@ with c81:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(int(states_recent.loc[state_ch]['Recovered']))}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(int(states_recent.loc[state_ch]['Recovered']))}</span><br><br><span>RECOVERED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
@@ -276,7 +277,7 @@ with c91:
     st.text('')
     st.text('')
     st.markdown(
-        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #888;'><span style='font-size: 40px;'>{str(int(states_recent.loc[state_ch]['Deceased']))}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
+        f"<h5 style='text-align: center; letter-spacing:2px;font-size: 22px; color: #ffffff;'><span style='font-size: 40px;'>{str(int(states_recent.loc[state_ch]['Deceased']))}</span><br><br><span>DECEASED CASES</span></h5>", unsafe_allow_html=True)
     st.text('')
     st.text('')
     st.text('')
