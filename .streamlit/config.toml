@@ -1,7 +1,7 @@
 [theme]
-base="dark"
+base="transparent"
 primaryColor = "#F63366"
-backgroundColor = "linear-gradient(to right, #1c0522eb 51%,transparent 100%)"
+backgroundColor = "transparent"
 secondaryBackgroundColor = "#752237"
 textColor = "#ffffff"
 font = "sans serif"
